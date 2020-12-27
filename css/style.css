@@ -1,0 +1,43 @@
+body {
+  background-color: #219fda;
+  text-align: center;
+}
+
+.container {
+  width: 35%;
+  height: 105px;
+  margin: 0 auto;
+  text-align: center;
+  border: 10px solid black;
+  border-style: double;
+  background-color: #234b88c0;
+  font-family: "Times New Roman";
+  color: black;
+}
+
+.button {
+  margin: 0px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: inline;
+}
+
+.countdown1 {
+  background-color: #234b88c0;
+}
+
+.countdown2 {
+  background-color: #234b88c0;
+}
+
+.breakfast, .lunch, .dinner, .snack {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */

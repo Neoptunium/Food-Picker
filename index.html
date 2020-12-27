@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="jquery-3.5.1.min.js"></script>
+
+    <link rel="stylesheet" media="screen" href="/css/style.css">
+    <title>Food Picker</title>
+</head>
+<body>
+    <br>
+    <h2><b>Food Picker Program</b></h2>
+    <br>
+    <div class="container">
+    <br>
+    <div class="button">
+    <button class="btn btn-success" onclick="breakfastMain()"> Breakfast</button>
+    </div>
+    <div class="button">
+    <button class="btn btn-danger" onclick="lunchMain()"> Lunch</button>
+    </div>
+     <div class="button">
+     <button class="btn btn-info" onclick="dinnerMain()"> Dinner</button
+     </div>
+    <div class="button">
+        <button class="btn btn-primary" onclick="snackMain()"> Snack</button
+       </div>
+    <div class="button">
+        <button class="btn btn-warning" onclick="resetMain()"> Reset</button
+       </div>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+   
+    <div id="countdown1" class="countdown1"></div>
+    <br>
+    <div id="countdown2" class="countdown2"></div>
+    </div>
+
+        <div class="breakfast"><div id="breakfast1" class="breakfast1"></div>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<div id="breakfast2" class="breakfast2"></div> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<div id="breakfast3" class="breakfast3"></div></div>
+        <div class="lunch"><div id="lunch1" class="lunch1"></div>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<div id="lunch2" class="lunch2"></div> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<div id="lunch3" class="lunch3"></div></div>
+        <div class="dinner"><div id="dinner1" class="dinner1"></div>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<div id="dinner2" class="dinner2"></div> &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<div id="dinner3" class="dinner3"></div></div>
+        <div class="snack"><div id="snack1" class="snack1"></div>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<div id="snack2" class="snack2"></div>&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<div id="snack3" class="snack3"></div></div>
+<br>
+<br>
+<br>
+        
+        <div id="breakfastDetails" class="breakfastDetails"></div><div id="lunchDetails" class="lunchDetails"></div><div id="dinnerDetails" class="dinnerDetails"></div><div id="snackDetails" class="snackDetails"></div>
+
+    <script type="text/javascript" src="/js/reset.js"></script>
+    <script type="text/javascript" src="/js/breakfast.js"></script>
+    <script type="text/javascript" src="/js/lunch.js"></script>
+    <script type="text/javascript" src="/js/dinner.js"></script>
+    <script type="text/javascript" src="/js/snack.js"></script>
+    <script type="text/javascript" src="/js/details.js"></script>
+
+</body>
+</html>

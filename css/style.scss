@@ -1,0 +1,46 @@
+$center: center;
+$maincolor: #219fda;
+$secondarycolor: #234b88c0;
+$bordermain: 10px solid black;
+$borderstylemain: double;
+$fontsizemain: 30px;
+$fontsizesecondary: 19px;
+$fontmain: "Times New Roman";
+$fontcolor: black;
+$displayflex: flex;
+
+body {
+    background-color: $maincolor;
+    text-align: $center;
+}
+.container {
+    width: 35%;
+    height: 105px;
+    margin: 0 auto;
+    text-align: $center;
+    border: $bordermain;
+    border-style: $borderstylemain;
+    background-color:$secondarycolor;
+    font-family: $fontmain;
+    color: $fontcolor;
+
+}
+.button {
+    margin: 0px auto;
+    display: flex;
+    padding: 20px;
+    justify-content: $center;
+    display:inline;
+}
+
+.countdown1 {
+background-color:$secondarycolor;
+}
+
+.countdown2 {
+background-color:$secondarycolor;
+}
+
+.breakfast, .lunch, .dinner, .snack {
+display: $displayflex;
+}
